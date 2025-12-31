@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DSA Discipline System</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+  <header class="topbar">
+    <h1>DSA Discipline System</h1>
+    <span>Competitive Coding Dashboard</span>
+  </header>
+
+  <section class="stats">
+    <div class="stat-card">
+      <p>Active Members</p>
+      <h2>42</h2>
+    </div>
+    <div class="stat-card">
+      <p>Avg Weekly Delta</p>
+      <h2 class="green">+7</h2>
+    </div>
+    <div class="stat-card">
+      <p>Top Score</p>
+      <h2 class="gold">157</h2>
+    </div>
+  </section>
+
+  <section class="chart-box">
+    <h3>Weekly Problems Solved</h3>
+    <canvas id="weeklyChart"></canvas>
+  </section>
+
+  <a class="cta" href="leaderboard.html">View Full Leaderboard →</a>
+
+  <script src="js/charts.js"></script>
+</body>
+</html>
