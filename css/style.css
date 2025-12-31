@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    background: #0b0f19;
+    color: #e5e7eb;
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.topbar {
+    padding: 16px;
+    border-bottom: 1px solid #1f2937;
+}
+
+.topbar h1 {
+    margin: 0;
+    color: #38bdf8;
+}
+
+.topbar span {
+    font-size: 0.85rem;
+    color: #9ca3af;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 14px;
+    padding: 16px;
+}
+
+.stat-card {
+    background: #020617;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+}
+
+.green {
+    color: #22c55e;
+}
+
+.gold {
+    color: #facc15;
+}
+
+.chart-box {
+    margin: 16px;
+    padding: 16px;
+    background: #020617;
+    border-radius: 12px;
+    border: 1px solid #1e293b;
+}
+
+.cta {
+    display: block;
+    margin: 16px;
+    padding: 14px;
+    text-align: center;
+    background: #2563eb;
+    color: white;
+    border-radius: 12px;
+    text-decoration: none;
+}
+
+
+/* Leaderboard */
+
+.leaderboard {
+    margin: 16px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 0.6fr 2fr 1fr 1fr 1fr 1fr;
+    padding: 12px;
+    border-bottom: 1px solid #1f2937;
+}
+
+.row.header {
+    color: #38bdf8;
+    font-weight: 600;
+}
+
+.row:hover {
+    background: rgba(56, 189, 248, 0.06);
+}
